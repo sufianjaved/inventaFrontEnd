@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2f00b2d0b3966613c86df5a3d1e2202f",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "95c56c4c30f82781",
+        "parentUid" : "8d0d164b41d48d003493611d495f2abc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589975710141,
+          "stop" : 1589975710153,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d0d164b41d48d003493611d495f2abc"
+    }, {
+      "name" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "d7d0d7f9e1aa106c",
+        "parentUid" : "53b0fd332197dc59b8ca38140f3433e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003012340,
+          "stop" : 1590003012342,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "998f3a48ee8ae900",
+        "parentUid" : "53b0fd332197dc59b8ca38140f3433e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003072477,
+          "stop" : 1590003072478,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53b0fd332197dc59b8ca38140f3433e7"
+    }, {
+      "name" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "40dda7f941cdd9a7",
+        "parentUid" : "29138fa9885f2118928b2e2936618430",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003012352,
+          "stop" : 1590003012354,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29138fa9885f2118928b2e2936618430"
+    }, {
+      "name" : "invalid session id\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "b019a629c0eacf60",
+        "parentUid" : "2220a501c7f0e4797c689757cb55e469",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003106093,
+          "stop" : 1590003106093,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2220a501c7f0e4797c689757cb55e469"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

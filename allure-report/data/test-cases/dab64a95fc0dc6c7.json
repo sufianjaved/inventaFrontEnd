@@ -1,0 +1,87 @@
+{
+  "uid" : "dab64a95fc0dc6c7",
+  "name" : "cleanUp",
+  "fullName" : "Default Suite : Inventa_UIandAPI.cleanUp",
+  "historyId" : "3f04bec1f641478222310660203b1b2d",
+  "time" : {
+    "start" : 1589975710525,
+    "stop" : 1589975710525,
+    "duration" : 0
+  },
+  "description" : "@AfterTest",
+  "descriptionHtml" : "<p>@AfterTest</p>\n",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onConfigurationSkip(AllureTestListener.java:120)\n\tat org.testng.internal.TestListenerHelper.runPostConfigurationListeners(TestListenerHelper.java:33)\n\tat org.testng.internal.ConfigInvoker.runConfigurationListeners(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.handleConfigurationSkip(ConfigInvoker.java:402)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:268)\n\tat org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)\n\tat org.testng.TestRunner.afterRun(TestRunner.java:849)\n\tat org.testng.TestRunner.run(TestRunner.java:590)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "25184@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Default Suite : Inventa_UIandAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "Default Suite : Inventa_UIandAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "cleanUp"
+  }, {
+    "name" : "package",
+    "value" : "Default Suite : Inventa_UIandAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "438d4cbb9009c729",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975502101,
+        "stop" : 1589975502101,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5b27350377c1792",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975374311,
+        "stop" : 1589975374311,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fd2f941727082047",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589973205892,
+        "stop" : 1589973205892,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dab64a95fc0dc6c7.json",
+  "parameterValues" : [ ]
+}

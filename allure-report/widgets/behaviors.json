@@ -1,0 +1,15 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "da07598f1f5c980d4047b3ab44e8de1c",
+    "name" : "We can specify respective story from JIRA here",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

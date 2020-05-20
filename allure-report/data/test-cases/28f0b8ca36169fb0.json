@@ -1,0 +1,68 @@
+{
+  "uid" : "28f0b8ca36169fb0",
+  "name" : "addTagToDevice",
+  "fullName" : "testcases.inventa.discover.DeviceAddTagTest.addTagToDevice",
+  "historyId" : "76757b7e3ce4863532a7b37f53ca3ef",
+  "time" : {
+    "start" : 1589977355957,
+    "stop" : 1589977363773,
+    "duration" : 7816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Command line test"
+  }, {
+    "name" : "testMethod",
+    "value" : "addTagToDevice"
+  }, {
+    "name" : "testSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "thread",
+    "value" : "10016@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28f0b8ca36169fb0.json",
+  "parameterValues" : [ ]
+}

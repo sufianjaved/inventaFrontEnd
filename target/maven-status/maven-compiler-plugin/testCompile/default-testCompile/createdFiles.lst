@@ -1,0 +1,15 @@
+testcases\inventa\discover\DeviceAddTagTest.class
+pages\inventa\common\Header.class
+utils\BaseTest.class
+testcases\inventa\discover\DeviceSearchTest.class
+pages\inventa\dashboard\DashboardPage.class
+utils\DefaultConfiguration.class
+pages\inventa\common\LoginPage.class
+testcases\inventa\discover\DeviceAddNoteTest.class
+pages\inventa\discover\DeviceDetailPage.class
+utils\AllureEnvironmentWriter.class
+utils\inventa\common\Connector.class
+utils\ApplicationConfiguration.class
+utils\selenium\EnvironmentSetup.class
+pages\inventa\discover\DevicePage.class
+utils\selenium\SeleniumFactory.class

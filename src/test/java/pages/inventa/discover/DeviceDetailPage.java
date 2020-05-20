@@ -1,5 +1,6 @@
 package pages.inventa.discover;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +18,7 @@ public class DeviceDetailPage  extends SeleniumFactory {
     @FindBy(id="editNote") private WebElement note_textArea;
     @FindBy(xpath="//button[contains(text(), 'Save')]") private WebElement save_btn;
 
+    @Step("Add Tag to Device")
     public boolean addTagToDevice() throws Exception {
 
         String tagAddedByAutomation = "Test tag by automation";
@@ -41,6 +43,7 @@ public class DeviceDetailPage  extends SeleniumFactory {
         return getElement(By.xpath("//div[contains(text(), '"+stringAddedByAutomation+"')]"));
     }
 
+    @Step("Add Note to Device")
     public boolean addNoteToDevice() throws Exception {
 
         String noteAddedByAutomation = "Test note by automation";

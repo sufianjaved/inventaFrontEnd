@@ -1,5 +1,6 @@
 package testcases.inventa.discover;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import pages.inventa.common.Header;
@@ -12,16 +13,20 @@ public class DeviceSearchTest extends BaseTest {
 
     @Override
     protected void initializePageElements() {
+
         devicePage = new DevicePage();
     }
 
-    //@DisplayName("Some text")
-    //@Description("Some text")
+    @Story("We can specify respective story from JIRA here")
+    @Description("Search device functionality right now is not working")
+    @Feature("Search Device from Search bar")
     @Test
+    @Severity(SeverityLevel.NORMAL)
     public void searchDevice() throws Exception{
 
-        PageFactory.initElements(driver,Header.class);
         click(Header.devices_icon);
         devicePage.searchDevice();
     }
+    //@Test
+    //Export CSV Test
 }

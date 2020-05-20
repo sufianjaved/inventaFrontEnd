@@ -1,0 +1,92 @@
+{
+  "uid" : "8c0a5f17e469f4cc",
+  "name" : "addNoteToDevice",
+  "fullName" : "testcases.inventa.discover.DeviceAddNoteTest.addNoteToDevice",
+  "historyId" : "be7d87d72a94edd30966b77ed59d87c6",
+  "time" : {
+    "start" : 1589969991835,
+    "stop" : 1589969999315,
+    "duration" : 7480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1589969945743,
+      "stop" : 1589969991644,
+      "duration" : 45901
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "cleanUp",
+    "time" : {
+      "start" : 1589970000243,
+      "stop" : 1589970001407,
+      "duration" : 1164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addNoteToDevice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "thread",
+    "value" : "28424@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c0a5f17e469f4cc.json",
+  "parameterValues" : [ ]
+}

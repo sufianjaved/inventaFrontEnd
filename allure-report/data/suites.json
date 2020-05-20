@@ -1,0 +1,202 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite : Inventa_UIandAPI",
+    "children" : [ {
+      "name" : "setUp",
+      "uid" : "95c56c4c30f82781",
+      "parentUid" : "bb63fe90ff76a778fbe4dc7607086ae4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1589975710141,
+        "stop" : 1589975710153,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cleanUp",
+      "uid" : "dab64a95fc0dc6c7",
+      "parentUid" : "bb63fe90ff76a778fbe4dc7607086ae4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1589975710525,
+        "stop" : 1589975710525,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bb63fe90ff76a778fbe4dc7607086ae4"
+  }, {
+    "name" : "Command line suite : Command line test",
+    "children" : [ {
+      "name" : "cleanUp",
+      "uid" : "1a336d2c54fad6e",
+      "parentUid" : "199cb340f3df4fb18752f58c92862f7e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1589977121288,
+        "stop" : 1589977121288,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "setUp",
+      "uid" : "40dda7f941cdd9a7",
+      "parentUid" : "199cb340f3df4fb18752f58c92862f7e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590003012352,
+        "stop" : 1590003012354,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "199cb340f3df4fb18752f58c92862f7e"
+  }, {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "testcases.inventa.discover.DeviceAddNoteTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "d7d0d7f9e1aa106c",
+          "parentUid" : "32043d9d5ec0c75a640161cc8e1fdbf3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590003012340,
+            "stop" : 1590003012342,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addNoteToDevice",
+          "uid" : "ebc858086bc877d1",
+          "parentUid" : "32043d9d5ec0c75a640161cc8e1fdbf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003183875,
+            "stop" : 1590003194853,
+            "duration" : 10978
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addNoteToDevice",
+          "uid" : "51fcf184f0abc535",
+          "parentUid" : "32043d9d5ec0c75a640161cc8e1fdbf3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003183895,
+            "stop" : 1590003194858,
+            "duration" : 10963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "32043d9d5ec0c75a640161cc8e1fdbf3"
+      }, {
+        "name" : "testcases.inventa.discover.DeviceAddTagTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "998f3a48ee8ae900",
+          "parentUid" : "77ebd66976b2d98f3a34ea88da83fb97",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590003072477,
+            "stop" : 1590003072478,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addTagToDevice",
+          "uid" : "f1f690b1604654fb",
+          "parentUid" : "77ebd66976b2d98f3a34ea88da83fb97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003235954,
+            "stop" : 1590003241720,
+            "duration" : 5766
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addTagToDevice",
+          "uid" : "deea453efaa294b1",
+          "parentUid" : "77ebd66976b2d98f3a34ea88da83fb97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003235955,
+            "stop" : 1590003241721,
+            "duration" : 5766
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "77ebd66976b2d98f3a34ea88da83fb97"
+      }, {
+        "name" : "testcases.inventa.discover.DeviceSearchTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "b019a629c0eacf60",
+          "parentUid" : "559aa66823465feb3406bb41fff6d8b7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590003106093,
+            "stop" : 1590003106093,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "searchDevice",
+          "uid" : "7fe1ce1a0d7ac1d6",
+          "parentUid" : "559aa66823465feb3406bb41fff6d8b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003272701,
+            "stop" : 1590003278527,
+            "duration" : 5826
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "searchDevice",
+          "uid" : "2ff355196a28cac2",
+          "parentUid" : "559aa66823465feb3406bb41fff6d8b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590003272702,
+            "stop" : 1590003278544,
+            "duration" : 5842
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "559aa66823465feb3406bb41fff6d8b7"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ]
+}

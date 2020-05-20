@@ -22,6 +22,7 @@ public class AllureEnvironmentWriter {
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
             Document doc = docBuilder.newDocument();
             Element environment = doc.createElement("environment");
+
             doc.appendChild(environment);
             environmentValuesSet.forEach((k, v) -> {
                 Element parameter = doc.createElement("parameter");

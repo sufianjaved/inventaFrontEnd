@@ -1,0 +1,70 @@
+{
+  "uid" : "27fe6f90a83e0e11",
+  "name" : "addTagToDevice",
+  "fullName" : "testcases.inventa.discover.DeviceAddTagTest.addTagToDevice",
+  "historyId" : "76757b7e3ce4863532a7b37f53ca3ef",
+  "time" : {
+    "start" : 1589975374299,
+    "stop" : 1589975374307,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : ": Skipped due to dependency on other skipped or failed test methods",
+  "statusTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)\n\tat org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57)\n\tat org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)\n\tat org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:446)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:542)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Inventa_UIandAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "addTagToDevice"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "thread",
+    "value" : "2016@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Inventa_UIandAPI"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27fe6f90a83e0e11.json",
+  "parameterValues" : [ ]
+}

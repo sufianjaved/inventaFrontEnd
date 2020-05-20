@@ -1,0 +1,256 @@
+{
+  "cf09d25c6d19e3a94f810553a08ff509" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51fcf184f0abc535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003183895,
+        "stop" : 1590003194858,
+        "duration" : 10963
+      }
+    } ]
+  },
+  "81d10459b1b01520acedd9dce007ff46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40dda7f941cdd9a7",
+      "status" : "broken",
+      "statusDetails" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "time" : {
+        "start" : 1590003012352,
+        "stop" : 1590003012354,
+        "duration" : 2
+      }
+    } ]
+  },
+  "853de3271c48b7b7e4acf5e13754dfca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a336d2c54fad6e",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589977121288,
+        "stop" : 1589977121288,
+        "duration" : 0
+      }
+    } ]
+  },
+  "10ea78ba01b45c5dc95f7e6e1947073e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "998f3a48ee8ae900",
+      "status" : "broken",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "time" : {
+        "start" : 1590003072477,
+        "stop" : 1590003072478,
+        "duration" : 1
+      }
+    } ]
+  },
+  "accfc589060aab6ed86d2e9e90a68676" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1f690b1604654fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003235954,
+        "stop" : 1590003241720,
+        "duration" : 5766
+      }
+    } ]
+  },
+  "be7d87d72a94edd30966b77ed59d87c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebc858086bc877d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003183875,
+        "stop" : 1590003194853,
+        "duration" : 10978
+      }
+    } ]
+  },
+  "7175d003ecd4b46400256951610ea258" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7d0d7f9e1aa106c",
+      "status" : "broken",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "time" : {
+        "start" : 1590003012340,
+        "stop" : 1590003012342,
+        "duration" : 2
+      }
+    } ]
+  },
+  "b8759014c90917fcd5c1a20220b6981d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ff355196a28cac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003272702,
+        "stop" : 1590003278544,
+        "duration" : 5842
+      }
+    } ]
+  },
+  "1d4eda2055148090feba85bd0b50fd85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fe1ce1a0d7ac1d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003272701,
+        "stop" : 1590003278527,
+        "duration" : 5826
+      }
+    } ]
+  },
+  "3f04bec1f641478222310660203b1b2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dab64a95fc0dc6c7",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975710525,
+        "stop" : 1589975710525,
+        "duration" : 0
+      }
+    } ]
+  },
+  "76757b7e3ce4863532a7b37f53ca3ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "deea453efaa294b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590003235955,
+        "stop" : 1590003241721,
+        "duration" : 5766
+      }
+    } ]
+  },
+  "a8a2c2f2bba4d93ef5c0d12fe51c4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95c56c4c30f82781",
+      "status" : "broken",
+      "statusDetails" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2f00b2d0b3966613c86df5a3d1e2202f",
+      "time" : {
+        "start" : 1589975710141,
+        "stop" : 1589975710153,
+        "duration" : 12
+      }
+    } ]
+  },
+  "6635b65ef534c659a54158816a122ea0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b019a629c0eacf60",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\SUFIAN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bbba2811b454b1580467c8bc53257318",
+      "time" : {
+        "start" : 1590003106093,
+        "stop" : 1590003106093,
+        "duration" : 0
+      }
+    } ]
+  }
+}

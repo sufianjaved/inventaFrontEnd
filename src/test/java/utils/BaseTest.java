@@ -1,7 +1,8 @@
 package utils;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.*;
+import pages.inventa.common.Header;
 import pages.inventa.common.LoginPage;
 import utils.selenium.SeleniumFactory;
 
@@ -14,18 +15,21 @@ public abstract class BaseTest extends SeleniumFactory {
     //@Rule
     //public ScreenShotOnFailure to do
 
-    @BeforeTest
+    @BeforeClass
     public void setUp() throws Exception {
     if(driver!=null) {
         driver.close();
     }
     initializeLocalBrowser();
+    if(!isAllureEnvSet)
+        setAllureEnvironment();
     login = new LoginPage();
     initializePageElements();
     login.loginInventa();
+    PageFactory.initElements(driver, Header.class);
     }
 
-    @AfterClass
+    @AfterTest
     public static void cleanUp(){
         if(driver!=null)
             driver.quit();

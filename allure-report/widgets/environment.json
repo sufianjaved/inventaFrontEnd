@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "chrome 81.0.4044.138" ],
+  "name" : "BROWSER"
+}, {
+  "values" : [ "Windows 10" ],
+  "name" : "OS"
+}, {
+  "values" : [ "http://inventaserver:8080/" ],
+  "name" : "URL"
+} ]

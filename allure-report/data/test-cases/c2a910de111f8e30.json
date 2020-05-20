@@ -1,0 +1,68 @@
+{
+  "uid" : "c2a910de111f8e30",
+  "name" : "addNoteToDevice",
+  "fullName" : "testcases.inventa.discover.DeviceAddNoteTest.addNoteToDevice",
+  "historyId" : "cf09d25c6d19e3a94f810553a08ff509",
+  "time" : {
+    "start" : 1589974565907,
+    "stop" : 1589974576698,
+    "duration" : 10791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Inventa_UIandAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "addNoteToDevice"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "thread",
+    "value" : "13220@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Inventa_UIandAPI"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceAddNoteTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2a910de111f8e30.json",
+  "parameterValues" : [ ]
+}

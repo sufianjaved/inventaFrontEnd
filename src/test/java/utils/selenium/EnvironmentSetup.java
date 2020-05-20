@@ -86,7 +86,7 @@ public class EnvironmentSetup {
         allureEnvironmentWriter(
                 ImmutableMap.<String, String>builder()
                         .put("BROWSER", cap.getBrowserName()+" "+cap.getVersion().toString())
-                        .put("DB", Connector.getHost())
+                        //.put("DB", Connector.getHost())
                         .put("URL", ApplicationConfiguration.getApplicationURL())
                         .put("OS", SystemUtils.OS_NAME)
                         .build(), System.getProperty("user.dir")

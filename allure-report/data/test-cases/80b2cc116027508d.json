@@ -1,0 +1,68 @@
+{
+  "uid" : "80b2cc116027508d",
+  "name" : "searchDevice",
+  "fullName" : "testcases.inventa.discover.DeviceSearchTest.searchDevice",
+  "historyId" : "b8759014c90917fcd5c1a20220b6981d",
+  "time" : {
+    "start" : 1589977399184,
+    "stop" : 1589977404989,
+    "duration" : 5805
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceSearchTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Command line test"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchDevice"
+  }, {
+    "name" : "testSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "thread",
+    "value" : "10016@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceSearchTest"
+  }, {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceSearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80b2cc116027508d.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,6 @@
 package pages.inventa.common;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,6 +20,7 @@ public class LoginPage extends SeleniumFactory {
         super();
     }
 
+    @Step("Login inVenta")
     public void loginInventa() throws Exception {
 
         driver.get(ApplicationConfiguration.getApplicationURL());

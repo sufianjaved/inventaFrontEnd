@@ -1,0 +1,198 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Default Suite : Inventa_UIandAPI",
+    "children" : [ {
+      "name" : "setUp",
+      "uid" : "95c56c4c30f82781",
+      "parentUid" : "c98f8387772fb9df92d9c34512868a72",
+      "status" : "broken",
+      "time" : {
+        "start" : 1589975710141,
+        "stop" : 1589975710153,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "cleanUp",
+      "uid" : "dab64a95fc0dc6c7",
+      "parentUid" : "c98f8387772fb9df92d9c34512868a72",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1589975710525,
+        "stop" : 1589975710525,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c98f8387772fb9df92d9c34512868a72"
+  }, {
+    "name" : "Command line suite : Command line test",
+    "children" : [ {
+      "name" : "cleanUp",
+      "uid" : "1a336d2c54fad6e",
+      "parentUid" : "132293d7b53e8c405d9b9b8560d7171c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1589977121288,
+        "stop" : 1589977121288,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "setUp",
+      "uid" : "40dda7f941cdd9a7",
+      "parentUid" : "132293d7b53e8c405d9b9b8560d7171c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590003012352,
+        "stop" : 1590003012354,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "132293d7b53e8c405d9b9b8560d7171c"
+  }, {
+    "name" : "testcases.inventa.discover",
+    "children" : [ {
+      "name" : "DeviceAddNoteTest",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "d7d0d7f9e1aa106c",
+        "parentUid" : "908c4ded01577455acd287b24e6a072b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003012340,
+          "stop" : 1590003012342,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addNoteToDevice",
+        "uid" : "ebc858086bc877d1",
+        "parentUid" : "908c4ded01577455acd287b24e6a072b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003183875,
+          "stop" : 1590003194853,
+          "duration" : 10978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addNoteToDevice",
+        "uid" : "51fcf184f0abc535",
+        "parentUid" : "908c4ded01577455acd287b24e6a072b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003183895,
+          "stop" : 1590003194858,
+          "duration" : 10963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "908c4ded01577455acd287b24e6a072b"
+    }, {
+      "name" : "DeviceAddTagTest",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "998f3a48ee8ae900",
+        "parentUid" : "9913dde75d15497716b3a7e67a341d9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003072477,
+          "stop" : 1590003072478,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addTagToDevice",
+        "uid" : "f1f690b1604654fb",
+        "parentUid" : "9913dde75d15497716b3a7e67a341d9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003235954,
+          "stop" : 1590003241720,
+          "duration" : 5766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addTagToDevice",
+        "uid" : "deea453efaa294b1",
+        "parentUid" : "9913dde75d15497716b3a7e67a341d9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003235955,
+          "stop" : 1590003241721,
+          "duration" : 5766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9913dde75d15497716b3a7e67a341d9d"
+    }, {
+      "name" : "DeviceSearchTest",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "b019a629c0eacf60",
+        "parentUid" : "291975a753e32b13926454e9b43ffbeb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590003106093,
+          "stop" : 1590003106093,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchDevice",
+        "uid" : "7fe1ce1a0d7ac1d6",
+        "parentUid" : "291975a753e32b13926454e9b43ffbeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003272701,
+          "stop" : 1590003278527,
+          "duration" : 5826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchDevice",
+        "uid" : "2ff355196a28cac2",
+        "parentUid" : "291975a753e32b13926454e9b43ffbeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590003272702,
+          "stop" : 1590003278544,
+          "duration" : 5842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "291975a753e32b13926454e9b43ffbeb"
+    } ],
+    "uid" : "testcases.inventa.discover"
+  } ]
+}

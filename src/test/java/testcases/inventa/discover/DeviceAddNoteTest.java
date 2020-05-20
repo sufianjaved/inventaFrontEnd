@@ -1,5 +1,6 @@
 package testcases.inventa.discover;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,10 +20,14 @@ public class DeviceAddNoteTest extends BaseTest {
         deviceDetailPage = new DeviceDetailPage();
     }
 
+    @Story("We can specify respective story from JIRA here")
+    @Description("This test verifies adding note to a device")
+    @Feature("Add Note to Device")
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     public void addNoteToDevice() throws Exception{
 
-        PageFactory.initElements(driver, Header.class);
+
         click(Header.devices_icon);
         devicePage.selectDevice();
         Assert.assertTrue(deviceDetailPage.addNoteToDevice(),"Note could not be added to the device");

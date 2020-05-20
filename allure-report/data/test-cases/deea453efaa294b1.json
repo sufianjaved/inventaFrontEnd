@@ -1,0 +1,318 @@
+{
+  "uid" : "deea453efaa294b1",
+  "name" : "addTagToDevice",
+  "fullName" : "testcases.inventa.discover.DeviceAddTagTest.addTagToDevice",
+  "historyId" : "76757b7e3ce4863532a7b37f53ca3ef",
+  "time" : {
+    "start" : 1590003235955,
+    "stop" : 1590003241721,
+    "duration" : 5766
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2EKP6R8"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Command line test"
+  }, {
+    "name" : "testMethod",
+    "value" : "addTagToDevice"
+  }, {
+    "name" : "testSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "thread",
+    "value" : "34892@DESKTOP-2EKP6R8.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "package",
+    "value" : "testcases.inventa.discover.DeviceAddTagTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a6093b32f08579a",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1590003072486,
+        "stop" : 1590003072490,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "c6962e527bb642a0",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1590002562894,
+        "stop" : 1590002562906,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "28f0b8ca36169fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589977355957,
+        "stop" : 1589977363773,
+        "duration" : 7816
+      }
+    }, {
+      "uid" : "62ef4e33f78e6f52",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589977149768,
+        "stop" : 1589977149770,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5740f76f2b29c09b",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589976926392,
+        "stop" : 1589976926400,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "b45d56cec5b6e893",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589976713886,
+        "stop" : 1589976714086,
+        "duration" : 200
+      }
+    }, {
+      "uid" : "8e7668d48aae82ef",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589976581944,
+        "stop" : 1589976582101,
+        "duration" : 157
+      }
+    }, {
+      "uid" : "a1a7d4b8351d18cd",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589976456865,
+        "stop" : 1589976456877,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "b48d1a82dc5d3290",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589976343029,
+        "stop" : 1589976343037,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "56e4da8000e1f519",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589976064829,
+        "stop" : 1589976064962,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "7f8b6db8b691552e",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589975851503,
+        "stop" : 1589975851684,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "c7afb80ec6056e8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589975763129,
+        "stop" : 1589975776008,
+        "duration" : 12879
+      }
+    }, {
+      "uid" : "f05e9938bd65f7aa",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975710505,
+        "stop" : 1589975710517,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "125e52169ec38932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589975559565,
+        "stop" : 1589975626664,
+        "duration" : 67099
+      }
+    }, {
+      "uid" : "a92daebb953fa387",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975502085,
+        "stop" : 1589975502093,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "27fe6f90a83e0e11",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589975374299,
+        "stop" : 1589975374307,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "ed32ea74b1ee0f8b",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589975157233,
+        "stop" : 1589975157385,
+        "duration" : 152
+      }
+    }, {
+      "uid" : "791531545bf11306",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589974939774,
+        "stop" : 1589974939974,
+        "duration" : 200
+      }
+    }, {
+      "uid" : "105803c781c95937",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589974844570,
+        "stop" : 1589974844740,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "2808c30098f009e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589974663758,
+        "stop" : 1589974675175,
+        "duration" : 11417
+      }
+    }, {
+      "uid" : "d68cc2040771b452",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589973016486,
+        "stop" : 1589973016492,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "6e76c15c485b861c",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589972898251,
+        "stop" : 1589972898259,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "a60a398e8fbf23dd",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589972835680,
+        "stop" : 1589972835688,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "a54763f6ceb91ff3",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589972770348,
+        "stop" : 1589972770364,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "83af5e90a2f4a54b",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589969999498,
+        "stop" : 1589969999715,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "bbdfbcb13a1fac1d",
+      "status" : "broken",
+      "statusDetails" : "NullPointerException: null",
+      "time" : {
+        "start" : 1589969431455,
+        "stop" : 1589969431800,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "70cd2ce92a26168e",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589969234885,
+        "stop" : 1589969234888,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "a84f39aae3e8466",
+      "status" : "skipped",
+      "statusDetails" : ": Skipped due to dependency on other skipped or failed test methods",
+      "time" : {
+        "start" : 1589968625997,
+        "stop" : 1589968626001,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deea453efaa294b1.json",
+  "parameterValues" : [ ]
+}
