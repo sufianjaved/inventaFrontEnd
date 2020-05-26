@@ -9,21 +9,15 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.google.common.collect.ImmutableMap;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import static utils.AllureEnvironmentWriter.allureEnvironmentWriter;
-
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ApplicationConfiguration;
 import utils.DefaultConfiguration;
 import utils.inventa.common.Connector;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.time.Duration;
 
 public class EnvironmentSetup {
 
@@ -67,7 +61,7 @@ public class EnvironmentSetup {
         }
 
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         Long backendTime = (Long) ((JavascriptExecutor) driver)
                 .executeScript("return performance.timing.responseStart - performance.timing.navigationStart;");

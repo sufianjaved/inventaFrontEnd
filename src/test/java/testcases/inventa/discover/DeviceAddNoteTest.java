@@ -1,9 +1,8 @@
 package testcases.inventa.discover;
 
 import io.qameta.allure.*;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 import pages.inventa.common.Header;
 import pages.inventa.discover.DeviceDetailPage;
 import pages.inventa.discover.DevicePage;
@@ -30,6 +29,6 @@ public class DeviceAddNoteTest extends BaseTest {
 
         click(Header.devices_icon);
         devicePage.selectDevice();
-        Assert.assertTrue(deviceDetailPage.addNoteToDevice(),"Note could not be added to the device");
+        Assert.assertTrue("Note could not be added to the device",deviceDetailPage.addNoteToDevice());
     }
 }

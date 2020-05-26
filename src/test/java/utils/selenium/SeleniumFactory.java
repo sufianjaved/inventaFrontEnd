@@ -2,6 +2,7 @@ package utils.selenium;
 
 import java.awt.AWTException;
 import java.awt.Robot;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -94,12 +95,12 @@ public class SeleniumFactory extends EnvironmentSetup {
     }
 
     public WebElement waitForElement(By selector,int seconds){
-        WebDriverWait elmWait = new WebDriverWait(driver, seconds);
+        WebDriverWait elmWait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
         return elmWait.until(ExpectedConditions.visibilityOfElementLocated(selector));
     }
 
     public WebElement waitForElement(WebElement element,int seconds){
-        WebDriverWait elmWait = new WebDriverWait(driver, seconds);
+        WebDriverWait elmWait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
         return elmWait.until(ExpectedConditions.visibilityOf(element));
     }
 
@@ -363,7 +364,7 @@ public class SeleniumFactory extends EnvironmentSetup {
 
     public boolean isAlertPresent(){
         try{
-            WebDriverWait wait = new WebDriverWait(driver, 2); //added because it was failing because of expectedAlert
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2)); //added because it was failing because of expectedAlert
             wait.until(ExpectedConditions.alertIsPresent());
             Alert alert = ExpectedConditions.alertIsPresent().apply(driver);
             return alert!=null?true:false;

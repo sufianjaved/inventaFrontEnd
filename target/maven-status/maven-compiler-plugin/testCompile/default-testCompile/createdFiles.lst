@@ -9,7 +9,9 @@ testcases\inventa\discover\DeviceAddNoteTest.class
 pages\inventa\discover\DeviceDetailPage.class
 utils\AllureEnvironmentWriter.class
 utils\inventa\common\Connector.class
+utils\inventa\common\ScreenShotOnFailure.class
 utils\ApplicationConfiguration.class
 utils\selenium\EnvironmentSetup.class
 pages\inventa\discover\DevicePage.class
 utils\selenium\SeleniumFactory.class
+utils\inventa\common\ScreenShotOnFailure$1.class

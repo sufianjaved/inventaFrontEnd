@@ -1,9 +1,12 @@
 package utils;
 
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.Rule;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.*;
 import pages.inventa.common.Header;
 import pages.inventa.common.LoginPage;
+import utils.inventa.common.ScreenShotOnFailure;
 import utils.selenium.SeleniumFactory;
 
 public abstract class BaseTest extends SeleniumFactory {
@@ -12,10 +15,10 @@ public abstract class BaseTest extends SeleniumFactory {
 
     LoginPage login;
 
-    //@Rule
-    //public ScreenShotOnFailure to do
+    @Rule
+    public ScreenShotOnFailure failure = new ScreenShotOnFailure(packageName);
 
-    @BeforeClass
+    @Before
     public void setUp() throws Exception {
     if(driver!=null) {
         driver.close();
@@ -29,7 +32,7 @@ public abstract class BaseTest extends SeleniumFactory {
     PageFactory.initElements(driver, Header.class);
     }
 
-    @AfterTest
+    @AfterClass
     public static void cleanUp(){
         if(driver!=null)
             driver.quit();

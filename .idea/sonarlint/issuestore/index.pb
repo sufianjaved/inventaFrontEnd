@@ -33,3 +33,5 @@ n
 >src/test/java/testcases/inventa/discover/DeviceSearchTest.java,8\2\8210c965e126973bca654d764b55c82b52a2afe9
 b
 2src/test/java/utils/selenium/EnvironmentSetup.java,f\6\f6c83c897f1b2290965445d48afdbe3b3b23d5ed
+k
+;src/test/java/utils/inventa/common/ScreenShotOnFailure.java,3\6\36023005fa1dcd0e0ceb5a6b30ebc96b977e3963
