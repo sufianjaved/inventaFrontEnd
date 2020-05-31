@@ -1,6 +1,7 @@
 package utils;
 
 import io.qameta.allure.Attachment;
+import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Rule;
@@ -53,7 +54,7 @@ public abstract class BaseTest extends SeleniumFactory {
     PageFactory.initElements(driver, Header.class);
     }
 
-    @AfterClass
+    @After
     public static void cleanUp(){
         if(driver!=null)
             driver.quit();
