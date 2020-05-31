@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1590968670264" stop="1590968749811" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>testcases.inventa.discover.DeviceAddTagTest</name>
+    <test-cases>
+        <test-case start="1590968670265" stop="1590968708308" status="passed">
+            <name>addTagToDevice</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-2EKP6R8"/>
+                <label name="thread" value="56904@DESKTOP-2EKP6R8.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
