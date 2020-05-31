@@ -1,37 +1,4 @@
 {
-  "total" : 3,
-  "items" : [ {
-    "uid" : "a3ebd3885f734b5e692af432fe3ee17b",
-    "name" : "Command line suite",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 9
-    }
-  }, {
-    "uid" : "bb63fe90ff76a778fbe4dc7607086ae4",
-    "name" : "Default Suite : Inventa_UIandAPI",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "199cb340f3df4fb18752f58c92862f7e",
-    "name" : "Command line suite : Command line test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  } ]
+  "total" : 0,
+  "items" : [ ]
 }

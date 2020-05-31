@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testcases.inventa.discover.DeviceSearchTest" time="186.757" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testcases.inventa.discover.DeviceSearchTest" time="38.623" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test allure:report"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,36 +64,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="searchDevice" classname="testcases.inventa.discover.DeviceSearchTest" time="125.587">
-    <error message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;DESKTOP-2EKP6R8&apos;, ip: &apos;169.254.39.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SUFIAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d9248371b4b46160ede62a17f141550" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SUFIAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9d9248371b4b46160ede62a17f141550
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:37318 after 60000 ms
-Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:37318 after 60000 ms
-</error>
-    <system-out><![CDATA[Back End load time is: 29
-Front End load time is: 342
+  <testcase name="searchDevice" classname="testcases.inventa.discover.DeviceSearchTest" time="37.99">
+    <failure message="Explicitly failing test" type="java.lang.AssertionError">java.lang.AssertionError: Explicitly failing test
+	at testcases.inventa.discover.DeviceSearchTest.searchDevice(DeviceSearchTest.java:30)
+</failure>
+    <system-out><![CDATA[Back End load time is: 11
+Front End load time is: 164
 ]]></system-out>
-    <system-err><![CDATA[May 24, 2020 5:41:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[May 28, 2020 5:43:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
-  </testcase>
-  <testcase name="testcases.inventa.discover.DeviceSearchTest" classname="testcases.inventa.discover.DeviceSearchTest" time="186.747">
-    <error message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;DESKTOP-2EKP6R8&apos;, ip: &apos;169.254.39.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: driver.version: ChromiumDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SUFIAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d9248371b4b46160ede62a17f141550" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-2EKP6R8', ip: '169.254.39.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: ChromiumDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\SUFIAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9d9248371b4b46160ede62a17f141550
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:37318 after 60000 ms
-Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:37318 after 60000 ms
-</error>
   </testcase>
 </testsuite>
