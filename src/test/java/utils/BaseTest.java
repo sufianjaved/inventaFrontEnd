@@ -1,12 +1,9 @@
 package utils;
 
-import com.assertthat.selenium_shutterbug.core.Shutterbug;
-import com.assertthat.selenium_shutterbug.utils.web.ScrollStrategy;
 import io.qameta.allure.Attachment;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Rule;
-import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.support.PageFactory;
 import pages.inventa.common.Header;
 import pages.inventa.common.LoginPage;
@@ -24,23 +21,23 @@ public abstract class BaseTest extends SeleniumFactory {
 
     LoginPage login;
 
-    //@Rule
-    //public ScreenShotOnFailure failure = new ScreenShotOnFailure(packageName);
+    @Rule
+    public ScreenShotOnFailure failure = new ScreenShotOnFailure(packageName);
 
-    @AfterEach
+/*    @AfterEach
     public void afterEach() throws IOException {
         attachScreenshot();
         driver.quit();
-    }
+    }*/
 
 
-    @Attachment(value = "screenshot", type = "image/png")
+/*    @Attachment(value = "screenshot", type = "image/png")
     public byte[] attachScreenshot() throws IOException {
         BufferedImage image = Shutterbug.shootPage(driver, ScrollStrategy.WHOLE_PAGE).getImage();
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         ImageIO.write(image, "png", outputStream);
         return outputStream.toByteArray();
-    }
+    }*/
 
     @Before
     public void setUp() throws Exception {
