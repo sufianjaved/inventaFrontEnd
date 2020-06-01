@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: testcases.inventa.discover.DeviceSearchTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.721 s <<< FAILURE! - in testcases.inventa.discover.DeviceSearchTest
-searchDevice(testcases.inventa.discover.DeviceSearchTest)  Time elapsed: 40.096 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.157 s <<< FAILURE! - in testcases.inventa.discover.DeviceSearchTest
+searchDevice(testcases.inventa.discover.DeviceSearchTest)  Time elapsed: 39.431 s  <<< FAILURE!
 java.lang.AssertionError: Explicitly failing test
 	at testcases.inventa.discover.DeviceSearchTest.searchDevice(DeviceSearchTest.java:30)
 

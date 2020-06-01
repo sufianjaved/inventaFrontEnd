@@ -1,17 +1,11 @@
 package utils;
 
-import io.qameta.allure.Attachment;
 import org.junit.*;
 import org.openqa.selenium.support.PageFactory;
 import pages.inventa.common.Header;
 import pages.inventa.common.LoginPage;
 import utils.inventa.common.ScreenShotOnFailure;
 import utils.selenium.SeleniumFactory;
-
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 
 public abstract class BaseTest extends SeleniumFactory {
     protected String packageName = this.getClass().getPackage().getName();
@@ -37,7 +31,7 @@ public abstract class BaseTest extends SeleniumFactory {
         return outputStream.toByteArray();
     }*/
 
-    @BeforeClass
+    @Before
     public void setUp() throws Exception {
     if(driver!=null) {
         driver.close();
