@@ -108,11 +108,6 @@
             <version>2.13.3</version>
         </dependency>
 
-        <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-report-data</artifactId>
-            <version>1.5.4</version>
-        </dependency>
 
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -138,10 +133,15 @@
 
         <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-java-aspects</artifactId>
+            <artifactId>allure-report-data</artifactId>
             <version>1.5.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-java-aspects</artifactId>
+            <version>1.5.4</version>
+        </dependency>
 
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -155,11 +155,6 @@
             <version>1.5.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-maven-plugin</artifactId>
-            <version>2.6</version>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
@@ -171,4 +166,16 @@
     </dependencies>
 
 
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>ru.yandex.qatools.allure</groupId>
+                <artifactId>allure-maven-plugin</artifactId>
+                <version>2.6</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
 </project>
+
