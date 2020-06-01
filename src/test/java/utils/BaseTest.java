@@ -3,7 +3,6 @@ package utils;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.junit.*;
-import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
