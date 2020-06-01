@@ -1,5 +1,6 @@
 package utils.inventa.common;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.junit.rules.MethodRule;
@@ -9,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utils.selenium.EnvironmentSetup;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -46,6 +48,8 @@ public class ScreenShotOnFailure extends EnvironmentSetup implements MethodRule 
 
             @Attachment(value = "{className} - {testName} - {formatDateTime}", type = "image/png")
             public byte[] captureScreenshot(String className, String testName, String now) throws IOException {
+
+                //Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
                 TakesScreenshot screenshot = ((TakesScreenshot) driver);
                 //
 /*
@@ -58,8 +62,10 @@ public class ScreenShotOnFailure extends EnvironmentSetup implements MethodRule 
             	}
 */
                 //
-                if(driver!=null)
+                if(driver!=null) {
+                    Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
                     return screenshot.getScreenshotAs(OutputType.BYTES);
+                }
                 else
                     return null;
             }
