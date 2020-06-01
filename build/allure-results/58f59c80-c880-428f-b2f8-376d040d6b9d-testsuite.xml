@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1590050135613" stop="1590050135635" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>Command line suite : Command line test</name>
-    <title>Command line suite : Command line test</title>
-    <labels>
-        <label name="framework" value="TestNG"/>
-        <label name="language" value="JAVA"/>
-    </labels>
-</ns2:test-suite>
