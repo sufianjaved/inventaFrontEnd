@@ -30,10 +30,10 @@ public abstract class BaseTest extends SeleniumFactory {
     }
 
 
-    @Attachment(value = "screenshot", type = "image/png")
+    //@Attachment(value = "screenshot", type = "image/png")
     public byte[] attachScreenshot() throws IOException {
         TakesScreenshot screenshot = ((TakesScreenshot) driver);
-        Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("screenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
         return screenshot.getScreenshotAs(OutputType.BYTES);
     }
 
