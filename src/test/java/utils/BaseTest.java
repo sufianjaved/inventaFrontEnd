@@ -1,10 +1,7 @@
 package utils;
 
 import io.qameta.allure.Attachment;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.Rule;
+import org.junit.*;
 import org.openqa.selenium.support.PageFactory;
 import pages.inventa.common.Header;
 import pages.inventa.common.LoginPage;
@@ -40,7 +37,7 @@ public abstract class BaseTest extends SeleniumFactory {
         return outputStream.toByteArray();
     }*/
 
-    @Before
+    @BeforeClass
     public void setUp() throws Exception {
     if(driver!=null) {
         driver.close();
@@ -54,7 +51,7 @@ public abstract class BaseTest extends SeleniumFactory {
     PageFactory.initElements(driver, Header.class);
     }
 
-    @After
+    @AfterClass
     public static void cleanUp(){
         if(driver!=null)
             driver.quit();
