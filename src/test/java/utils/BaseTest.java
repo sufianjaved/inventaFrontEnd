@@ -23,7 +23,7 @@ public abstract class BaseTest extends SeleniumFactory {
     //@Rule
     //public ScreenShotOnFailure failure = new ScreenShotOnFailure(packageName);
 
-    @AfterEach
+    @After
     public void afterEach() throws IOException {
         attachScreenshot();
         driver.quit();
