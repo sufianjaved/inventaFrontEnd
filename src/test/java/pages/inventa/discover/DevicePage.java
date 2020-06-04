@@ -9,7 +9,7 @@ public class DevicePage  extends SeleniumFactory {
 
     @FindBy(xpath="*//div[contains(text(), 'Devices')]") public static WebElement device_caption;
     @FindBy(xpath="//button[contains(text(), 'Query Wizard')]") private WebElement queryWizard_btn;
-    @FindBy(xpath="//td[contains(text(), 'DEVICE')] and .//td[contains(text(), 'adapter_ad')]") private WebElement randomDevice_gridResult;
+    @FindBy(xpath="//td[contains(text(), 'DEVICE')] and //td[contains(text(), 'adapter_ad')]") private WebElement randomDevice_gridResult;
     @FindBy(xpath="//input[@class='search-field']") private WebElement search_field;
 
 
