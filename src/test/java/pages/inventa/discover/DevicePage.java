@@ -21,11 +21,19 @@ public class DevicePage  extends SeleniumFactory {
     {
         waitForElement(device_caption);
 
-        List<WebElement> List_randomDevice_gridResult = driver.findElements(By.xpath("//td[@class='ng-tns-c14-10 ng-star-inserted']"));
-        for(WebElement deviceName:List_randomDevice_gridResult){
-            if(deviceName.getText().contains("DEVICE"))
-            {
+        //List<WebElement> List_randomDevice_gridResult =
+        //        driver.findElements(By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-10 ng-star-inserted']/td[]"));
+
+        List<WebElement> randomDevice_gridResultLast = driver.findElements((By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-10 ng-star-inserted']/td[3]")));
+        String device = "";
+
+        for (int i=0; i < randomDevice_gridResultLast.size(); i++) {
+            device = device + randomDevice_gridResultLast.get(i).getText() + "\n";
+
+            System.out.println(device);
+            if (device.contains("DEVICE")) {
                 System.out.println("Working fine");
+                randomDevice_gridResultLast.get(i).click();
             }
         }
         click(randomDevice_gridResult);
