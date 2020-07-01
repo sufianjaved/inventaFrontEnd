@@ -16,7 +16,8 @@ public class DeviceDetailPage  extends SeleniumFactory {
     //note tab
     @FindBy(id="nav-contact-tab") private WebElement note_tab;
     @FindBy(id="editNote") private WebElement note_textArea;
-    @FindBy(xpath="//button[contains(text(),'Save')]") private WebElement save_btn;
+    //@FindBy(xpath="//button[contains(text(),'Save')]") private WebElement save_btn;
+    @FindBy(xpath="//div[@class='add-comment-section']//button[@class='theme-button-small graydient-primary-btn']") private WebElement save_btn;
 
     @Step("Add Tag to Device")
     public boolean addTagToDevice() throws Exception {
@@ -51,7 +52,6 @@ public class DeviceDetailPage  extends SeleniumFactory {
         click(note_tab);
         clearField(note_textArea);
         sendKeys(note_textArea,noteAddedByAutomation);
-        waitForElement(save_btn);
         click(save_btn);
 //sleep add
         WebElement deviceNote = getAttributeNameByString(noteAddedByAutomation);
