@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testcases.inventa.discover.DeviceSearchTest" time="40.157" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testcases.inventa.discover.DeviceSearchTest" time="42.653" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
@@ -64,14 +64,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="searchDevice" classname="testcases.inventa.discover.DeviceSearchTest" time="39.431">
+  <testcase name="searchDevice" classname="testcases.inventa.discover.DeviceSearchTest" time="42.633">
     <failure message="Explicitly failing test" type="java.lang.AssertionError">java.lang.AssertionError: Explicitly failing test
 	at testcases.inventa.discover.DeviceSearchTest.searchDevice(DeviceSearchTest.java:30)
 </failure>
-    <system-out><![CDATA[Back End load time is: 10
-Front End load time is: 147
+    <system-out><![CDATA[Back End load time is: 25
+Front End load time is: 383
 ]]></system-out>
-    <system-err><![CDATA[Jun 01, 2020 5:09:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Jul 01, 2020 3:25:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

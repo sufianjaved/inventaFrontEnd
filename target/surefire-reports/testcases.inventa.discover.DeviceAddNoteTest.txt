@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcases.inventa.discover.DeviceAddNoteTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.706 s - in testcases.inventa.discover.DeviceAddNoteTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.858 s - in testcases.inventa.discover.DeviceAddNoteTest
