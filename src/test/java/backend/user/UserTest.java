@@ -37,8 +37,8 @@ public class UserTest extends BaseClassBackEnd {
     @Test
     public void getAllUsers() throws IOException {
 
-        Connector conn = new Connector();
-        conn.testConnection();
+        //Connector conn = new Connector();
+        //conn.testConnection();
 
         HttpGet get = new HttpGet(BASE_ENDPOINT + USER_ENDPOINT + ALL_USERS + PAGINATION);
         get.setHeader("Authorization", "Bearer " + token);
