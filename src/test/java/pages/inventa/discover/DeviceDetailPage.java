@@ -52,7 +52,7 @@ public class DeviceDetailPage  extends SeleniumFactory {
         clearField(note_textArea);
         sendKeys(note_textArea,noteAddedByAutomation);
         click(save_btn);
-
+//sleep add
         WebElement deviceNote = getAttributeNameByString(noteAddedByAutomation);
         if(elementExists(deviceNote)) {
             noteShownOnUI = deviceNote.getText();

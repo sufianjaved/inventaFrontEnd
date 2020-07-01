@@ -15,7 +15,6 @@ import static utils.AllureEnvironmentWriter.allureEnvironmentWriter;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ApplicationConfiguration;
 import utils.DefaultConfiguration;
-import utils.inventa.common.Connector;
 
 import java.time.Duration;
 

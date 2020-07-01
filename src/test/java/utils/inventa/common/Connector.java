@@ -1,54 +1,35 @@
 package utils.inventa.common;
 
-import java.sql.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Component;
 
-import utils.DefaultConfiguration;
+import java.util.HashMap;
+import java.util.Map;
 
+@Component
 public class Connector {
 
-    public static Connection connection = null;
+    @Autowired
+    MongoTemplate mongoTemplate;
 
-    private static String url;
-    private static String login;
-    private static String password;
-    private static String server;
-    private static String port;
-    private static String driver;
-    private static String dbname;
-    private static String host;
+    @Value("${dbName}")
+    private String dbName;
 
-    public void getPropValues(){
-
-        try {
-            // get the property value and print it out
-            server = DefaultConfiguration.getProperty("db.server");
-            port = DefaultConfiguration.getProperty("db.port");
-            url = DefaultConfiguration.getProperty("db.url");
-            login = DefaultConfiguration.getProperty("db.login");
-            password = DefaultConfiguration.getProperty("db.password");
-            driver = DefaultConfiguration.getProperty("db.driver");
-            dbname = DefaultConfiguration.getProperty("db.dbname");
-            setHost(url + "://" + server + ":" + port + "/" + dbname);
-
-        } catch (Exception e) {
-            System.out.println("Exception: " + e);
-        }
-    }
-
-
-    public Connection getConnection() throws Exception {
-        this.getPropValues();
-        Class.forName(driver);
-        return DriverManager.getConnection(getHost(), login, password);
-    }
-
-
-    public static String getHost() {
-        return host;
-    }
-
-
-    public static void setHost(String host) {
-        Connector.host = host;
+    public void testConnection(){
+        String propTest = dbName;
+        System.out.println("dbName is "+dbName);
+        Query query = new Query();
+        Criteria criteria = Criteria.where("userName").is("admininventa");
+        query.addCriteria(criteria);
+        Map map = new HashMap();
+        map.put("key1","value1");
+        map.put("key2","value2");
+        mongoTemplate.save((Object)map,"conn_test");
+//        mongoTemplate.find(query, Document.class,"admin_users");
+        System.out.println("I am here!");
     }
 }

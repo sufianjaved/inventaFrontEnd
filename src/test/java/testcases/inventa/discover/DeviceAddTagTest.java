@@ -6,9 +6,9 @@ import org.junit.Test;
 import pages.inventa.common.Header;
 import pages.inventa.discover.DeviceDetailPage;
 import pages.inventa.discover.DevicePage;
-import utils.BaseTest;
+import utils.BaseClassFrontEnd;
 
-public class DeviceAddTagTest extends BaseTest {
+public class DeviceAddTagTest extends BaseClassFrontEnd {
 
     DevicePage devicePage;
     DeviceDetailPage deviceDetailPage;

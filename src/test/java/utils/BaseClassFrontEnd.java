@@ -13,7 +13,7 @@ import utils.selenium.SeleniumFactory;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-public abstract class BaseTest extends SeleniumFactory {
+public abstract class BaseClassFrontEnd extends SeleniumFactory {
     protected String packageName = this.getClass().getPackage().getName();
     protected abstract void initializePageElements();
 

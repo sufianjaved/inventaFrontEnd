@@ -5,9 +5,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import pages.inventa.common.Header;
 import pages.inventa.discover.DevicePage;
-import utils.BaseTest;
+import utils.BaseClassFrontEnd;
 
-public class DeviceSearchTest extends BaseTest {
+public class DeviceSearchTest extends BaseClassFrontEnd {
 
     DevicePage devicePage;
 

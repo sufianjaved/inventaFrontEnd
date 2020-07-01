@@ -6,9 +6,9 @@ import org.junit.Test;
 import pages.inventa.common.Header;
 import pages.inventa.discover.DeviceDetailPage;
 import pages.inventa.discover.DevicePage;
-import utils.BaseTest;
+import utils.BaseClassFrontEnd;
 
-public class DeviceAddNoteTest extends BaseTest {
+public class DeviceAddNoteTest extends BaseClassFrontEnd {
 
     DevicePage devicePage;
     DeviceDetailPage deviceDetailPage;
@@ -25,8 +25,6 @@ public class DeviceAddNoteTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     public void addNoteToDevice() throws Exception{
-
-
         click(Header.devices_icon);
         devicePage.selectDevice();
         Assert.assertTrue("Note could not be added to the device",deviceDetailPage.addNoteToDevice());

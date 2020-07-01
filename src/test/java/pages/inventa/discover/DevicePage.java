@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DevicePage  extends SeleniumFactory {
 
-    @FindBy(xpath="*//div[contains(text(), 'Devices')]") public static WebElement device_caption;
+    @FindBy(xpath="*//h1[contains(text(), 'Devices')]") public static WebElement device_caption;
     @FindBy(xpath="//button[contains(text(), 'Query Wizard')]") private WebElement queryWizard_btn;
     @FindBy(xpath="//td[contains(text(), 'DEVICE')]") private WebElement randomDevice_gridResult;
     @FindBy(xpath="//input[@class='search-field']") private WebElement search_field;
@@ -24,7 +24,7 @@ public class DevicePage  extends SeleniumFactory {
         //List<WebElement> List_randomDevice_gridResult =
         //        driver.findElements(By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-10 ng-star-inserted']/td[]"));
 
-        List<WebElement> randomDevice_gridResultLast = driver.findElements((By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-10 ng-star-inserted']/td[3]")));
+        List<WebElement> randomDevice_gridResultLast = driver.findElements((By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-6 ng-star-inserted']/td[3]")));
         String device = "";
 
         for (int i=0; i < randomDevice_gridResultLast.size(); i++) {
@@ -34,9 +34,10 @@ public class DevicePage  extends SeleniumFactory {
             if (device.contains("DEVICE")) {
                 System.out.println("Working fine");
                 randomDevice_gridResultLast.get(i).click();
+                break;
             }
         }
-        click(randomDevice_gridResult);
+        //click(randomDevice_gridResult);
     }
 
     @Step("Search Device")
