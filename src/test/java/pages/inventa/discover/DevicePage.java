@@ -29,15 +29,17 @@ public class DevicePage  extends SeleniumFactory {
 
         for (int i=0; i < randomDevice_gridResultLast.size(); i++) {
             device = device + randomDevice_gridResultLast.get(i).getText() + "\n";
-
-            System.out.println(device);
-            if (device.contains("DEVICE")) {
-                System.out.println("Working fine");
+            if (device.contains("DEVICE"))
+            {
+                randomDevice_gridResultLast.get(i).click();
+                break;
+            }
+            else if(device.contains("SUBNET"))
+            {
                 randomDevice_gridResultLast.get(i).click();
                 break;
             }
         }
-        //click(randomDevice_gridResult);
     }
 
     @Step("Search Device")

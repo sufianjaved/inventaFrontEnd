@@ -26,8 +26,7 @@ public class DeviceDetailPage  extends SeleniumFactory {
         String tagShownOnUI = null;
         click(tags_tab);
         sendKeys(tag_field,tagAddedByAutomation);
-        scrollToThenClick(add_btn);
-        //click(add_btn);
+        click(add_btn);
 
         WebElement tagName = getAttributeNameByString(tagAddedByAutomation);
         if(elementExists(tagName)) {
