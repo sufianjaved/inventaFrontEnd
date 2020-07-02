@@ -49,9 +49,9 @@ public class ScreenShotOnFailure extends EnvironmentSetup implements MethodRule 
             @Attachment(value = "{className} - {testName} - {formatDateTime}", type = "image/png")
             public byte[] captureScreenshot(String className, String testName, String now) throws IOException {
 
-                //Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+                Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
                 TakesScreenshot screenshot = ((TakesScreenshot) driver);
-                //
+
 /*
             	if(driver!=null){
             		File scrFile = screenshot.getScreenshotAs(OutputType.FILE);
@@ -60,8 +60,8 @@ public class ScreenShotOnFailure extends EnvironmentSetup implements MethodRule 
                     	targetFile.delete();
                     FileUtils.copyFile(scrFile, targetFile);
             	}
+
 */
-                //
                 if(driver!=null) {
                     Allure.addAttachment("{className} - {testName} - {formatDateTime}", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
                     return screenshot.getScreenshotAs(OutputType.BYTES);

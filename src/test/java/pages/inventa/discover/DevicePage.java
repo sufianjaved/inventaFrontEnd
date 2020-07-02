@@ -21,20 +21,12 @@ public class DevicePage  extends SeleniumFactory {
     {
         waitForElement(device_caption);
 
-        //List<WebElement> List_randomDevice_gridResult =
-        //        driver.findElements(By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-10 ng-star-inserted']/td[]"));
-
         List<WebElement> randomDevice_gridResultLast = driver.findElements((By.xpath("//tr[@class='parent-row mat-row ng-tns-c14-6 ng-star-inserted']/td[3]")));
         String device = "";
 
         for (int i=0; i < randomDevice_gridResultLast.size(); i++) {
             device = device + randomDevice_gridResultLast.get(i).getText() + "\n";
             if (device.contains("DEVICE"))
-            {
-                randomDevice_gridResultLast.get(i).click();
-                break;
-            }
-            else if(device.contains("SUBNET"))
             {
                 randomDevice_gridResultLast.get(i).click();
                 break;

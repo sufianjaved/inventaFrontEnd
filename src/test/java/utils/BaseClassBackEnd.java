@@ -18,7 +18,8 @@ public class BaseClassBackEnd {
     protected CloseableHttpClient client;
     protected CloseableHttpResponse response;
 
-    protected static final String BASE_ENDPOINT = ApplicationConfiguration.getBaseURL();
+    protected static final String BASE_ENDPOINT = ApplicationConfiguration.getBaseURL_InventaService();
+    protected static final String BASE_ENDPOINT_ADAPTER = ApplicationConfiguration.getBaseURL_AdapterService();
 
     //For Token
     public static final String SUBJECT = ApplicationConfiguration.getSubject();

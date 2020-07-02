@@ -12,8 +12,8 @@ import java.io.IOException;
 public class UserTest extends BaseClassBackEnd {
 
     public static final String USER_ENDPOINT = "/users/";
-    public static final String PAGINATION = "?page=0&size=100";
-    public static final String ALL_USERS = "getAllUsers";
+    //public static final String PAGINATION = "?page=0&size=100";
+    //public static final String ALL_USERS = "getAllUsers";
     public static final String USER_DETAIL = "userDetail?_id=";
     public static final String USER_ADAPTER_lIST = "adapters/list?_id=";
     public static final String ALL_USER_TAGS = "tags/";
@@ -40,11 +40,10 @@ public class UserTest extends BaseClassBackEnd {
         //Connector conn = new Connector();
         //conn.testConnection();
 
-        HttpGet get = new HttpGet(BASE_ENDPOINT + USER_ENDPOINT + ALL_USERS + PAGINATION);
+        HttpGet get = new HttpGet(BASE_ENDPOINT + USER_ENDPOINT + "getAllUsers" + "?page=0&size=100");
         get.setHeader("Authorization", "Bearer " + token);
         response = client.execute(get);
         int actualStatus = response.getStatusLine().getStatusCode();
-        Assert.assertEquals("Status was other than 200", actualStatus, HttpStatus.SC_OK);
+        Assert.assertEquals("Invalid Status in Response: ", actualStatus, HttpStatus.SC_OK);
     }
-
 }
