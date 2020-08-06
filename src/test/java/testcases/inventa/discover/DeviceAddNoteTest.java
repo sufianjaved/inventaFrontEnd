@@ -1,5 +1,6 @@
 package testcases.inventa.discover;
 
+import com.mongodb.DBCollection;
 import io.qameta.allure.*;
 import org.junit.Assert;
 import org.junit.Test;
@@ -27,6 +28,9 @@ public class DeviceAddNoteTest extends BaseClassFrontEnd {
     public void addNoteToDevice() throws Exception{
         click(Header.devices_icon);
         devicePage.selectDevice();
+        DBCollection roleCollection = db.getCollection("role");
+        String ROLE_ID = connectDB.getCollection(roleCollection);
         Assert.assertTrue("Note could not be added to the device",deviceDetailPage.addNoteToDevice());
+
     }
 }

@@ -13,6 +13,13 @@ public class ApplicationConfiguration {
     public static final String expirationTime = DefaultConfiguration.getProperty("expirationTime");
     public static final String subject = DefaultConfiguration.getProperty("subject");
 
+    public static final String mongoDB_UserName = DefaultConfiguration.getProperty("mongodb.username");
+    public static final String mongoDB_Password = DefaultConfiguration.getProperty("mongodb.password");
+    public static final String mongoDB_Host = DefaultConfiguration.getProperty("mongodb.host");
+    public static final String mongoDB_Port = DefaultConfiguration.getProperty("mongodb.port");
+    public static final String mongoDB_AuthDB = DefaultConfiguration.getProperty("mongodb.authentication-db");
+    public static final String mongoDB_DBName = DefaultConfiguration.getProperty("mongodb.dbname");
+
     public static String getApplicationURL(){
         return domain;
     }
@@ -21,33 +28,27 @@ public class ApplicationConfiguration {
         return username;
     }
 
-    public static String getUserPassword(){
+    public static String getUserPassword(){ return password; }
 
-        return password;
-    }
+    public static String getBaseURL_InventaService(){ return baseURL_InventaService; }
 
-    public static String getBaseURL_InventaService(){
+    public static String getBaseURL_AdapterService(){ return baseURL_AdapterService; }
 
-        return baseURL_InventaService;
-    }
+    public static String getSecretKey(){ return secretKey; }
 
-    public static String getBaseURL_AdapterService(){
+    public static String getExpirationTime(){ return expirationTime; }
 
-        return baseURL_AdapterService;
-    }
+    public static String getSubject(){ return subject; }
 
-    public static String getSecretKey(){
+    public static String getMongoDB_UserName(){ return mongoDB_UserName; }
 
-        return secretKey;
-    }
+    public static String getMongoDB_Password(){ return mongoDB_Password; }
 
-    public static String getExpirationTime(){
+    public static String getMongoDB_Host(){ return mongoDB_Host; }
 
-        return expirationTime;
-    }
+    public static String getMongoDB_Port(){ return mongoDB_Port; }
 
-    public static String getSubject(){
+    public static String getMongoDB_AuthDB(){ return mongoDB_AuthDB; }
 
-        return subject;
-    }
+    public static String getMongoDB_DBName(){ return mongoDB_DBName; }
 }

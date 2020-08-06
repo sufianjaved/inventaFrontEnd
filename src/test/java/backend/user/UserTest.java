@@ -5,7 +5,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.junit.Assert;
 import org.junit.Test;
 import utils.BaseClassBackEnd;
-import utils.inventa.common.Connector;
 
 import java.io.IOException;
 
